@@ -1,6 +1,7 @@
 """Tests for Taski API."""
-from http import HTTPStatus
 from django.test import Client, TestCase
+
+from http import HTTPStatus
 
 from api import models
 
